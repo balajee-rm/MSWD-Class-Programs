@@ -8,9 +8,11 @@ Step 2b: Install heroku package
 cmd > npm install -g heroku
 cmd > heroku --version
 
-Step 3a:
-Connect heroku by cmd login
-cmd > heroku login
+Follow either 2a or 2b
 
-Step 3b: Follow the below link
+Step 3:
+Create ".gitignore" file and add following line in it
+node_modules/
+
+Step 4: Follow the below link
 https://www.educative.io/edpresso/how-to-deploy-react-app-to-heroku
