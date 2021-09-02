@@ -1,0 +1,16 @@
+Step 1: Heroku signup
+https://signup.heroku.com/dc
+
+Step 2a: Download Heroku CLI and Install it
+https://devcenter.heroku.com/articles/heroku-cli#download-and-install
+
+Step 2b: Install heroku package
+cmd > npm install -g heroku
+cmd > heroku --version
+
+Step 3a:
+Connect heroku by cmd login
+cmd > heroku login
+
+Step 3b: Follow the below link
+https://www.educative.io/edpresso/how-to-deploy-react-app-to-heroku
