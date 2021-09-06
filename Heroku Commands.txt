@@ -1,0 +1,16 @@
+git init
+git add .
+git commit -m "First Commit"
+
+heroku create balajeedep3
+heroku apps
+heroku apps:delete
+heroku apps: delete balajeedep3
+heroku git:remote --apps balajeedep3
+
+heroku addons:create heroku-postgresql
+heroku config
+
+Heroku postgresql connection string
+postgres://zsirakoursdjhn:68759be77f97f715045f95b55ffd5f87a3aaf3587f1d2cb89ee5e755efd4878d@ec2-44-195-201-3.compute-1.amazonaws.com:5432/d29dt4uel3fct4
+
